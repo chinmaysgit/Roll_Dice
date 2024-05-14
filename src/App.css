@@ -19,7 +19,6 @@ html,body{
 .container{
     display: flex;
     align-items: center;
-    
 }
 .image img{
     width: 649px;
@@ -62,6 +61,8 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 .upper{
     display: flex;
@@ -113,4 +114,68 @@ h2{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+}
+.dice-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dice-container img{
+    cursor: pointer;
+}
+.dice-text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 25px;
+}
+.btn{
+   font-size: 1rem;
+   padding: 10px 8px;
+   border-radius: 5px;
+   border: 1px solid black; 
+   width: 220px;
+   height: 44px;
+   background: transparent;
+   cursor: pointer;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-white{
+    transition: all 0.3s linear;
+}
+.bg-white:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.2s linear;
+}
+.error-txt{
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+}
+.rules-container{
+    width: 794px;
+    height: 208px;
+    padding: 20px;
+    background: #FBF1F1;
+}
+.rules-container h2{
+    font-size: 24px;
+}
+.rules{
+    padding-top: 8px;
+}
+.rules p{
+    line-height: 24px;
 }

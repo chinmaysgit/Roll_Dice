@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './App.css';
 import PlayGame from './components/PlayGame';
 function App() {
-  const [isGameStarted, setIsGameStarted] = useState(true);
+  const [isGameStarted, setIsGameStarted] = useState(false);
   return (
     <>
     {isGameStarted ? <PlayGame /> : <Startgame setIsGameStarted = {setIsGameStarted}/>}
